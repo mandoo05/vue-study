@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <h1>Home 페이지</h1>
-    <p>여기는 Home!</p>
-  </div>
+  <h1 class="text-3xl font-bold text-blue-600">Home 페이지</h1>
 </template>
 
 <script setup lang="ts"></script>

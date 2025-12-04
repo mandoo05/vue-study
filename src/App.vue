@@ -1,20 +1,14 @@
 <template>
-  <div>
-    <h1>Vue Router 테스트 (TS 버전)</h1>
+  <Header />
 
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+  <main class="p-4 min-h-[70vh]">
+    <router-view />
+  </main>
 
-    <router-view></router-view>
-  </div>
+  <Footer />
 </template>
 
-<script setup lang="ts"></script>
-
-<style scoped>
-nav {
-  margin-bottom: 20px;
-}
-</style>
+<script setup lang="ts">
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+</script>
